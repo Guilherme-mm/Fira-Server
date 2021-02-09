@@ -1,5 +1,12 @@
 {
     "server": {
       "port" : 3000
+    },
+    "postgres": {
+      "user": "postgres",
+      "host": "localhost",
+      "database": "fira",
+      "password": "dev_password_1508",
+      "port": 5432
     }
   }

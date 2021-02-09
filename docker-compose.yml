@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+    postgres:
+        container_name: fira-postgres
+        build: ./docker/images/postgres
+        ports:
+            - "5432:5432"
+        environment:
+            POSTGRES_PASSWORD: dev_password_1508
+        
